@@ -36,7 +36,12 @@ public class App {
 	}
 */
 	public static void main(String[] args) {
-/*		// System.out.println("Hello World!");
+		
+		/**
+		 * Como crear o instanciar objetos??
+		 * 
+		
+		// System.out.println("Hello World!");
 
 		int a = 2;
 		int b = 2;
