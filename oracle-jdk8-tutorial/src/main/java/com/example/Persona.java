@@ -57,5 +57,5 @@ public class Persona {
 	String primerApellido = "Martínez";
 	double estatura = 1.75;
 	int totalCoches = 2;
-
+	Genero genero;
 }

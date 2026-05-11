@@ -39,7 +39,8 @@ public class App {
 		
 		/**
 		 * Como crear o instanciar objetos??
-		 * 
+		 * invocando o llamando a un constructor de la clase del tipo de
+		 * objeto que queremos crear.
 		
 		// System.out.println("Hello World!");
 
