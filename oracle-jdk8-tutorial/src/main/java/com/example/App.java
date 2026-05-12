@@ -100,7 +100,7 @@ public class App {
 		 * apellido1, totalAsignaturas y la facultad donde estudia
 		 */
 
-	}
+}
 		Estudiante estudiante1 = new Estudiante();
 		Estudiante estudiante2 = new Estudiante();
 		
@@ -109,7 +109,7 @@ public class App {
 		public App() {
 			super();
 			// TODO Auto-generated constructor stub
-		}
+}
 		
 		
 }
