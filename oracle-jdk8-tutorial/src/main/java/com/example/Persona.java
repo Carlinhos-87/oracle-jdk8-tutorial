@@ -17,7 +17,7 @@ aparecen en el proyecto */
 
 package com.example;
 
-public class Persona {
+public class Persona extends Object {
 
 	/*
 	 * a continuacion vamos a especificar o definir lo que caracteriza a una
@@ -58,4 +58,33 @@ public class Persona {
 	double estatura = 1.75;
 	int totalCoches = 2;
 	Genero genero;
-}
+	
+	/*constructor sin parametros, que es el constructor por defecto
+	* que se pierde en el momento que creamos un 
+	public Persona(String nombr*/
+	
+		 
+		
+		public Persona (String nombre, String primerApellido, double estatura){
+			super();
+			this.nombre = nombre;
+			this.primerApellido = primerApellido;
+			this.estatura = estatura;
+		}
+		
+		public Persona(String nombre, String primerApellido, double estatura, int totalCoches, Genero genero) {
+			super();
+			this.nombre = nombre;
+			this.primerApellido = primerApellido;
+			this.estatura = estatura;
+			this.totalCoches = totalCoches;
+			this.genero = genero;
+		}
+
+			public Persona()	{
+				super();
+			//TODO Auto-generated constructor stub
+		}
+			
+	}
+

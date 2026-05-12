@@ -67,22 +67,37 @@ public class App {
 		 * operador new.
 		 * 
 		 */
-		
+
 		int x = 45;
-		
-		/*En la sentencia que aparece a continuación la creación o instanciación del
-		 * objeto Persona tiene lugar a través de la sentencia new Persona(), es decir a 
-		 * traves de la invocación del constructor de la clase Persona
-		 * Y la variable persona1 NO ES EL OBJETO, es una referencia,
-		 * que en algunos lenguajes de programación como C++ se le llama puntero o 
-		 * apuntador, porque apunta a la dirección de memoria donde reside el 
-		 * objeto creado
-		 * Y también, a través de la variable persona1 es que puedo acceder a los 
-		 * elementos que están en la clase persona, utilizando el operador punto (.)*/
-		
+
+		/*
+		 * En la sentencia que aparece a continuación la creación o instanciación del
+		 * objeto Persona tiene lugar a través de la sentencia new Persona(), es decir a
+		 * traves de la invocación del constructor de la clase Persona Y la variable
+		 * persona1 NO ES EL OBJETO, es una referencia, que en algunos lenguajes de
+		 * programación como C++ se le llama puntero o apuntador, porque apunta a la
+		 * dirección de memoria donde reside el objeto creado Y también, a través de la
+		 * variable persona1 es que puedo acceder a los elementos que están en la clase
+		 * persona, utilizando el operador punto (.)
+		 */
+
 		Persona persona1 = new Persona();
-		
-		//Para mostrar el nombre de la persona
+
+		// la clase persona hereda de la clase object //Para mostrar el nombre de la
+		// persona
 		System.out.println("El nombre de la persona es: " + persona1.nombre);
+
+		Persona persona2 = new Persona("Pablo", "Escobar", 1.70);
+
+		/*
+		 * Ejercicio #1. Crear una clase que se llame Estudiante, que tenga como
+		 * propiedades: 1-nombre 2-apellido1 3-apellido2 4-totalAsignaturas 5-facultad,
+		 * que sea un tipo enum, con las constantes informatica, ciencias, matematicas
+		 * 
+		 * 2 crear: el metodo main, poder crear objetos estudiantes, sin parametros es
+		 * decir, vacios y tambien que los pueda crear suministrandoles el nombre,
+		 * apellido1, totalAsignaturas y la facultad donde estudia
+		 */
+
 	}
 }
