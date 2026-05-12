@@ -5,7 +5,7 @@ public class Estudiante {
 	String apellidoOne = "García";
 	String apellidoTwo = "Gavira";
 	int totAsignaturas = 12;
-	Facultad facultad;
+	Facultad facultad = Facultad.Matematicas;
 	
 	
 	public Estudiante() {
@@ -18,7 +18,7 @@ public class Estudiante {
 		this.nombre = "Luis";
 		this.apellidoOne = "Ramirez";
 		this.totAsignaturas = 8;
-		this.facultad = facultad;
+		this.facultad = Facultad.Informatica;
 	}
 		
 }
