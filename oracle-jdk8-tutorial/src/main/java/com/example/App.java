@@ -69,7 +69,7 @@ public class App {
 		 * 
 		 */
 
-		int x = 45;
+		//int x = 45;
 
 		/*
 		 * En la sentencia que aparece a continuación la creación o instanciación del
@@ -101,10 +101,8 @@ public class App {
 		 */
 
 	}
-		Estudiante estudiante1 = new Estudiante("José", "López",
-				7, Facultad.Informatica);
-		Estudiante estudiante2 = new Estudiante("Luis", "Ramírez",
-				5, Facultad.Ciencias);
+		Estudiante estudiante1 = new Estudiante("José", "López", 7, Facultad.Informatica);
+		Estudiante estudiante2 = new Estudiante("Luis", "Ramírez", 5, Facultad.Ciencias);
 		
 		
 		
@@ -112,7 +110,6 @@ public class App {
 			super();
 			// TODO Auto-generated constructor stub
 		}
-		
 		
 		
 }

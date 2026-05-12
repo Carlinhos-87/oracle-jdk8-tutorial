@@ -7,4 +7,18 @@ public class Estudiante {
 	int totAsignaturas = 12;
 	Facultad facultad;
 	
+	
+	public Estudiante() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Estudiante(String nombre, String apellidoOne, int totAsignaturas, Facultad facultad) {
+		super();
+		this.nombre = "Luis";
+		this.apellidoOne = "Ramirez";
+		this.totAsignaturas = 8;
+		this.facultad = facultad.Matematicas;
+	}
+		
 }
