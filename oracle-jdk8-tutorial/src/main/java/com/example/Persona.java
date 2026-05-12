@@ -6,10 +6,10 @@ Lo que se escribe entre comentarios, el compilador de java no lo toma
 en cuenta a la hora de compilar el resto de las sentencia de Java que
 aparecen en el proyecto */
 
-//comentario de línea
+/*//comentario de línea
 //comentario de línea 2
 //comentario de línea 3
-
+*/
 /*Una clase en Java es una plantilla a partir de la cual se puede crear o instanciar objetos
  * todo el código, las sentencias (ordenes) del lenguaje Java tienen que estar contenidas dentro de alguna clase
  * la plantilla es una estructura MUERTA hasta que se utiliza en el método main de la clase App 

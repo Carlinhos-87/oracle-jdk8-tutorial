@@ -26,38 +26,63 @@ package com.example;
 
 public class App {
 
-/*	// Metodo sumar
-
-	static int sumar(int a, int b) {
-
-		int c = a + b;
-
-		return c;
-	}
-*/
+	/*
+	 * // Metodo sumar
+	 * 
+	 * static int sumar(int a, int b) {
+	 * 
+	 * int c = a + b;
+	 * 
+	 * return c; }
+	 * 
+	 * int a = 2; int b = 2;
+	 * 
+	 * sumar(a, b);
+	 * 
+	 * a = 3; b = 3;
+	 * 
+	 * sumar(a, b);
+	 * 
+	 * a = 4; b = 4;
+	 * 
+	 * sumar(a / 2, b * 2);
+	 */
 	public static void main(String[] args) {
-		
+
 		/**
-		 * Como crear o instanciar objetos??
-		 * invocando o llamando a un constructor de la clase del tipo de
-		 * objeto que queremos crear.
+		 * Como crear o instanciar objetos?? invocando o llamando a un constructor de la
+		 * clase del tipo de objeto que queremos crear.
+		 * 
+		 * A modo de ejemplo:
+		 * 
+		 * Queremos crear un objeto de tipo Persona para lo cual vamos a llamar o
+		 * invocar al constructor de la clase Persona
+		 * 
+		 * Qué es un constructor?? Es un método que tiene el mismo nombre que la clase.
+		 * Por defecto todas las clases tienen un constructor implicito, sin parametros,
+		 * que te han otorgado gratuitamente y que lo pierdes en cuanto creas otro
+		 * constructor.
+		 * 
+		 * Para crear o instanciar el objeto el constructor hay que prefijarlo con el
+		 * operador new.
+		 * 
+		 */
 		
-		// System.out.println("Hello World!");
-
-		int a = 2;
-		int b = 2;
-
-		sumar(a, b);
-
-		a = 3;
-		b = 3;
-
-		sumar(a, b);
-
-		a = 4;
-		b = 4;
-
-		sumar(a / 2, b * 2);
-*/	}
-
+		int x = 45;
+		
+		/*En la sentencia que aparece a continuación la creación o instanciación del
+		 * objeto Persona tiene lugar a través de la sentencia new Persona(), es decir a 
+		 * traves de la invocación del constructor de la clase Persona
+		 * Y la variable persona1 NO ES EL OBJETO, es una referencia,
+		 * que en algunos lenguajes de programación como C++ se le llama puntero o 
+		 * apuntador, porque apunta a la dirección de memoria donde reside el 
+		 * objeto creado
+		 * Y también, a través de la variable persona1 es que puedo acceder a los 
+		 * elementos que están en la clase persona, utilizando el operador punto (.)*/
+		
+		Persona persona1 = new Persona();
+		
+		//Para mostrar el nombre de la persona
+		System.out.println("El nombre de la persona es: " + persona1.nombre);
+	}
 }
