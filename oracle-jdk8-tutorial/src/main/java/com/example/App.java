@@ -101,8 +101,8 @@ public class App {
 		 */
 
 	}
-		Estudiante estudiante1 = new Estudiante("José", "López", 7, Facultad.Informatica);
-		Estudiante estudiante2 = new Estudiante("Luis", "Ramírez", 5, Facultad.Ciencias);
+		Estudiante estudiante1 = new Estudiante();
+		Estudiante estudiante2 = new Estudiante();
 		
 		
 		
