@@ -24,6 +24,7 @@ package com.example;
  * operandos, es decir, dos datos que se almacenan en variables
  */
 
+
 public class App {
 
 	/*
@@ -86,7 +87,7 @@ public class App {
 		// la clase persona hereda de la clase object //Para mostrar el nombre de la
 		// persona
 		System.out.println("El nombre de la persona es: " + persona1.nombre);
-
+		
 		Persona persona2 = new Persona("Pablo", "Escobar", 1.70);
 
 		/*
@@ -100,4 +101,18 @@ public class App {
 		 */
 
 	}
+		Estudiante estudiante1 = new Estudiante("José", "López",
+				7, Facultad.Informatica);
+		Estudiante estudiante2 = new Estudiante("Luis", "Ramírez",
+				5, Facultad.Ciencias);
+		
+		
+		
+		public App() {
+			super();
+			// TODO Auto-generated constructor stub
+		}
+		
+		
+		
 }
