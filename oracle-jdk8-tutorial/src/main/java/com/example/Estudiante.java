@@ -18,7 +18,7 @@ public class Estudiante {
 		this.nombre = "Luis";
 		this.apellidoOne = "Ramirez";
 		this.totAsignaturas = 8;
-		this.facultad = facultad.Matematicas;
+		this.facultad = facultad;
 	}
 		
 }

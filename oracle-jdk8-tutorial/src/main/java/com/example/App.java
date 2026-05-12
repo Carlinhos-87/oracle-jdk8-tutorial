@@ -88,7 +88,7 @@ public class App {
 		// persona
 		System.out.println("El nombre de la persona es: " + persona1.nombre);
 		
-		Persona persona2 = new Persona("Pablo", "Escobar", 1.70);
+		//Persona persona2 = new Persona("Pablo", "Escobar", 1.70);
 
 		/*
 		 * Ejercicio #1. Crear una clase que se llame Estudiante, que tenga como
