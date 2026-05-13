@@ -1,6 +1,7 @@
 package com.example;
 
 public class Estudiante {
+	
 	String nombre = "Leticia";
 	String apellidoOne = "García";
 	String apellidoTwo = "Gavira";

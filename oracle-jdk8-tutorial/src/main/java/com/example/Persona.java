@@ -17,7 +17,7 @@ aparecen en el proyecto
 
 package com.example;
 
-public class Persona extends Object {
+public class Persona {
 
 	/*
 	 * a continuacion vamos a especificar o definir lo que caracteriza a una
