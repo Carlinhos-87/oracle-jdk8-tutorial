@@ -5,7 +5,7 @@ public class Estudiante {
 	String apellidoOne = "García";
 	String apellidoTwo = "Gavira";
 	int totAsignaturas = 12;
-	Facultad facultad = Facultad.Matematicas;
+	Facultad facultad = Facultad.MATEMATICAS;
 	
 	
 	public Estudiante() {
@@ -15,10 +15,11 @@ public class Estudiante {
 
 	public Estudiante(String nombre, String apellidoOne, int totAsignaturas, Facultad facultad) {
 		super();
-		this.nombre = "Luis";
-		this.apellidoOne = "Ramirez";
-		this.totAsignaturas = 8;
-		this.facultad = Facultad.Informatica;
+		this.nombre = nombre;
+		this.apellidoOne = apellidoOne;
+		this.totAsignaturas = totAsignaturas;
+		this.facultad = facultad;
 	}
-		
+
+			
 }

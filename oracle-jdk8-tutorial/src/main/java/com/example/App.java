@@ -69,7 +69,7 @@ public class App {
 		 * 
 		 */
 
-		//int x = 45;
+	//int x = 45;
 
 		/*
 		 * En la sentencia que aparece a continuación la creación o instanciación del
@@ -99,17 +99,23 @@ public class App {
 		 * decir, vacios y tambien que los pueda crear suministrandoles el nombre,
 		 * apellido1, totalAsignaturas y la facultad donde estudia
 		 */
-
-}
+		
 		Estudiante estudiante1 = new Estudiante();
-		Estudiante estudiante2 = new Estudiante();
 		
 		
+		System.out.println("El alumno es " + estudiante1.nombre + 
+				", su primer apellido es " +estudiante1.apellidoOne + ", tiene en total " 
+				+ estudiante1.totAsignaturas + " asignaturas, en la facultad de " 
+				+ estudiante1.facultad);
 		
-		public App() {
-			super();
-			// TODO Auto-generated constructor stub
+		Estudiante estudiante2 = new Estudiante("Luis", "Fermín", 7, Facultad.MATEMATICAS);
+		
+		System.out.println("El alumno es " + estudiante2.nombre + 
+				", su primer apellido es " +estudiante2.apellidoOne + ", tiene en total " 
+				+ estudiante2.totAsignaturas + " asignaturas, en la facultad de " 
+				+ estudiante2.facultad);
+		
 }
-		
+	
 		
 }

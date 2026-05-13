@@ -4,13 +4,13 @@ escribir, documentar, el proyecto o el codigo que estemos desarrollando.
   
 Lo que se escribe entre comentarios, el compilador de java no lo toma 
 en cuenta a la hora de compilar el resto de las sentencia de Java que
-aparecen en el proyecto */
+aparecen en el proyecto
 
-/*//comentario de línea
+//comentario de línea
 //comentario de línea 2
 //comentario de línea 3
-*/
-/*Una clase en Java es una plantilla a partir de la cual se puede crear o instanciar objetos
+
+ Una clase en Java es una plantilla a partir de la cual se puede crear o instanciar objetos
  * todo el código, las sentencias (ordenes) del lenguaje Java tienen que estar contenidas dentro de alguna clase
  * la plantilla es una estructura MUERTA hasta que se utiliza en el método main de la clase App 
  * la clase además de ser una plantilla sirve como tipo de datos*/
@@ -44,8 +44,8 @@ public class Persona extends Object {
 	 * lo correcto es que el nombre utilice la notacion llamada camel case, que
 	 * implica que la primera letra sea en minuscula y a partir de ahi letra
 	 * mayuscula cuando haya una inflexion, un cambio
-	 */
-	/*
+	 * 
+	 * 
 	 * la variable nombre, declarada a continuación, solamente va a permitir que se
 	 * almacenen en ella cadenas de caracteres, es decir, letras de la A a la Z
 	 * mayusculas y minusculas, porque antes del nombre de la variable hemos puesto
@@ -58,33 +58,31 @@ public class Persona extends Object {
 	double estatura = 1.75;
 	int totalCoches = 2;
 	Genero genero;
-	
-	/*constructor sin parametros, que es el constructor por defecto
-	* que se pierde en el momento que creamos un 
-	public Persona(String nombr*/
-	
-		 
-		
-		public Persona (String nombre, String primerApellido, double estatura){
-			super();
-			this.nombre = nombre;
-			this.primerApellido = primerApellido;
-			this.estatura = estatura;
-		}
-		
-		public Persona(String nombre, String primerApellido, double estatura, int totalCoches, Genero genero) {
-			super();
-			this.nombre = nombre;
-			this.primerApellido = primerApellido;
-			this.estatura = estatura;
-			this.totalCoches = totalCoches;
-			this.genero = genero;
-		}
 
-			public Persona()	{
-				super();
-			//TODO Auto-generated constructor stub
-		}
-			
+	/*
+	 * constructor sin parametros, que es el constructor por defecto que se pierde
+	 * en el momento que creamos un public Persona(String nombre...
+	 */
+
+	public Persona(String nombre, String primerApellido, double estatura) {
+		super();
+		this.nombre = nombre;
+		this.primerApellido = primerApellido;
+		this.estatura = estatura;
 	}
 
+	public Persona(String nombre, String primerApellido, double estatura, int totalCoches, Genero genero) {
+		super();
+		this.nombre = nombre;
+		this.primerApellido = primerApellido;
+		this.estatura = estatura;
+		this.totalCoches = totalCoches;
+		this.genero = genero;
+	}
+
+	public Persona() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+}
