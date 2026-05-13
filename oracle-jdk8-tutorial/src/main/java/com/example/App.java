@@ -24,7 +24,6 @@ package com.example;
  * operandos, es decir, dos datos que se almacenan en variables
  */
 
-
 public class App {
 
 	/*
@@ -69,7 +68,7 @@ public class App {
 		 * 
 		 */
 
-	//int x = 45;
+		// int x = 45;
 
 		/*
 		 * En la sentencia que aparece a continuación la creación o instanciación del
@@ -87,8 +86,8 @@ public class App {
 		// la clase persona hereda de la clase object //Para mostrar el nombre de la
 		// persona
 		System.out.println("El nombre de la persona es: " + persona1.nombre);
-		
-		//Persona persona2 = new Persona("Pablo", "Escobar", 1.70);
+
+		// Persona persona2 = new Persona("Pablo", "Escobar", 1.70);
 
 		/*
 		 * Ejercicio #1. Crear una clase que se llame Estudiante, que tenga como
@@ -99,23 +98,25 @@ public class App {
 		 * decir, vacios y tambien que los pueda crear suministrandoles el nombre,
 		 * apellido1, totalAsignaturas y la facultad donde estudia
 		 */
-		
+
 		Estudiante estudiante1 = new Estudiante();
-		
-		
-		System.out.println("El alumno es " + estudiante1.nombre + 
-				", su primer apellido es " +estudiante1.apellidoOne + ", tiene en total " 
-				+ estudiante1.totAsignaturas + " asignaturas, en la facultad de " 
+
+		System.out.println("El alumno es " + estudiante1.nombre + ", su primer apellido es " + estudiante1.apellidoOne
+				+ ", tiene en total " + estudiante1.totAsignaturas + " asignaturas, en la facultad de "
 				+ estudiante1.facultad);
-		
+
 		Estudiante estudiante2 = new Estudiante("Luis", "Fermín", 7, Facultad.MATEMATICAS);
-		
-		System.out.println("El alumno es " + estudiante2.nombre + 
-				", su primer apellido es " +estudiante2.apellidoOne + ", tiene en total " 
-				+ estudiante2.totAsignaturas + " asignaturas, en la facultad de " 
+
+		System.out.println("El alumno es " + estudiante2.nombre + ", su primer apellido es " + estudiante2.apellidoOne
+				+ ", tiene en total " + estudiante2.totAsignaturas + " asignaturas, en la facultad de "
 				+ estudiante2.facultad);
-		
-}
-	
-		
+
+		Estudiante estudiante3 = new Estudiante("Jose", "López", 9, Facultad.CIENCIAS);
+
+		System.out.println("El alumno es " + estudiante3.nombre + ", su primer apellido es " + estudiante3.apellidoOne
+				+ ", tiene en total " + estudiante3.totAsignaturas + " asignaturas, en la facultad de "
+				+ estudiante3.facultad);
+
+	}
+
 }
