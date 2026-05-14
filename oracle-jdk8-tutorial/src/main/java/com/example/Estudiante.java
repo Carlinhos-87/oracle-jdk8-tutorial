@@ -21,4 +21,19 @@ public class Estudiante {
 		this.facultad = facultad;
 	}
 
+	public Estudiante(String nombre) {
+		super();
+		this.nombre = nombre;
+	}
+
+	public Estudiante(String nombre, String apellidoOne, String apellidoTwo, int totAsignaturas, Facultad facultad) {
+		super();
+		this.nombre = nombre;
+		this.apellidoOne = apellidoOne;
+		this.apellidoTwo = apellidoTwo;
+		this.totAsignaturas = totAsignaturas;
+		this.facultad = facultad;
+	}
+	
+	
 }

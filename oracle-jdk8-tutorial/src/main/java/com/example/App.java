@@ -116,7 +116,22 @@ public class App {
 		System.out.println("El alumno es " + estudiante3.nombre + ", su primer apellido es " + estudiante3.apellidoOne
 				+ ", tiene en total " + estudiante3.totAsignaturas + " asignaturas, en la facultad de "
 				+ estudiante3.facultad);
-
+		
+		/*
+		 * Para crear un objeto estudiante y en el mismo momento asignarle un nombre, por ejemplo, tiene que existir el constructor
+		*/
+		Estudiante estudiante4 = new Estudiante("Pablo");
+		
+		System.out.println("El nombre del estudiante 4 es: " + estudiante4.nombre);
+		
+		Estudiante estudiante5 = new Estudiante("juan", "sanchez", 6, Facultad.INFORMATICA);
+	
+		Estudiante estudiante6 = new Estudiante("Carlos", "Paino", "Agueda", 6, Facultad.INFORMATICA);	
+		
+		System.out.println("El alumno es " + estudiante6.nombre + ", su primer apellido es " + estudiante6.apellidoOne 
+		+ " con segundo apellido " + estudiante6.apellidoTwo + ", tiene en total " 
+		+ estudiante6.totAsignaturas + " asignaturas, en la facultad de "
+		+ estudiante6.facultad + "."  );
 	}
 
 }
