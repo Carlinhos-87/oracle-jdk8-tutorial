@@ -58,6 +58,11 @@ public class Persona {
 	double estatura = 1.75;
 	int totalCoches = 2;
 	Genero genero;
+	
+	//El modificador final impide que se pueda cambiar el valor de una variable,
+	//por lo cual se convierte una variable a una constante.
+		
+	static final String PAIS = "España";
 
 	/*
 	 * constructor sin parametros, que es el constructor por defecto que se pierde

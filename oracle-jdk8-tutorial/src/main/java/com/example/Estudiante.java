@@ -7,6 +7,7 @@ public class Estudiante {
 	String apellidoTwo = "Gavira";
 	int totAsignaturas = 12;
 	Facultad facultad = Facultad.MATEMATICAS;
+	
 
 	public Estudiante() {
 		super();

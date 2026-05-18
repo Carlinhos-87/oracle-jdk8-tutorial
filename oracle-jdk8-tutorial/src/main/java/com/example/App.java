@@ -50,5 +50,33 @@ public class App {
 
 		System.out.println(new App().variable1);
 
+		App app1 = new App();
+
+		app1.variable1 = 6;
+
+		/*
+		 * A la variable salario puedo acceder sin hacer nada en absoluto, porque es
+		 * static y desde un metodo static, como es el metodo main puede acceder a la
+		 * misma sin ningun codigo adicional
+		 */
+
+		System.out.println(salario);
+
+		/*
+		 * ¿Como acceder a una variable static que esta declarada en otra clase, como
+		 * podria ser la clase Persona??
+		 * 
+		 * Utilizando el nombre de la clase prefijo
+		 * 
+		 * Y para ejemplificar supongamos que tenemos una variable, que es una
+		 * constante, en la clase Persona, para que todas las personas creadas sean del
+		 * mismo país
+		 */
+		
+		System.out.println("El pais de todas las personas es: " + Persona.PAIS);
+		/*Que los enum son eminentemente estáticos, por este motivo, las constantes
+		 * de un tipo enum se prefijan con el nombre del enumerable*/
+		
+		System.out.println("El genero de la persona es: " + Genero.Hombre);
 	}
 }
