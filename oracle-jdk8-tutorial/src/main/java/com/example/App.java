@@ -77,6 +77,6 @@ public class App {
 		/*Que los enum son eminentemente estáticos, por este motivo, las constantes
 		 * de un tipo enum se prefijan con el nombre del enumerable*/
 		
-		System.out.println("El genero de la persona es: " + Genero.Hombre);
+		System.out.println("El genero de la persona es: " + Genero.HOMBRE);
 	}
 }
